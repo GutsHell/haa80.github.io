@@ -182,7 +182,12 @@
 							<script async src="https://cusdis.com/js/cusdis.es.js">
 							<a href="javascript:timedRefresh(500)"></a>
 							</script>
-							
+							<script>
+							    function autoRefresh() {
+								window.location = window.location.href;
+							    }
+							    setInterval('autoRefresh()', 5000);
+							</script>
 
 						</article>
 		
