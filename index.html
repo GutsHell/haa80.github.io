@@ -87,6 +87,12 @@
 								</li>
 								<li>
 									<a href="#contact">Contact</a>
+									<script lang="javascript">
+								    const reloadUsingLocationHash = () => {
+								      window.location.hash = "reload";
+								    }
+								    window.onload = reloadUsingLocationHash();
+								  </script>
 								</li>
 								
 								
@@ -179,12 +185,7 @@
 							  data-page-title="{{ PAGE_TITLE }}"
 							  data-theme="dark"	   
 							></div>
-								<script lang="javascript">
-								    const reloadUsingLocationHash = () => {
-								      window.location.hash = "reload";
-								    }
-								    window.onload = reloadUsingLocationHash();
-								  </script>
+								
 							<script async src="https://cusdis.com/js/cusdis.es.js">
 							</script>
 							
